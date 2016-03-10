@@ -1,0 +1,17 @@
+C:\Documents and Settings\Administrator\桌面\01_form\01_form\bin\Debug\01_form.exe
+C:\Documents and Settings\Administrator\桌面\01_form\01_form\bin\Debug\01_form.pdb
+C:\Documents and Settings\Administrator\桌面\01_form\01_form\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\01_form\01_form\obj\x86\Debug\_01_form.Form1.resources
+C:\Documents and Settings\Administrator\桌面\01_form\01_form\obj\x86\Debug\_01_form.Properties.Resources.resources
+C:\Documents and Settings\Administrator\桌面\01_form\01_form\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\桌面\01_form\01_form\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Administrator\桌面\01_form\01_form\obj\x86\Debug\01_form.exe
+C:\Documents and Settings\Administrator\桌面\01_form\01_form\obj\x86\Debug\01_form.pdb
+E:\C#\01_form\01_form\obj\x86\Debug\01_form.exe
+E:\C#\01_form\01_form\obj\x86\Debug\01_form.pdb
+E:\C#\01_form\01_form\bin\Debug\01_form.exe
+E:\C#\01_form\01_form\bin\Debug\01_form.pdb
+E:\C#\01_form\01_form\obj\x86\Debug\01_form.csprojResolveAssemblyReference.cache
+E:\C#\01_form\01_form\obj\x86\Debug\_01_form.Form1.resources
+E:\C#\01_form\01_form\obj\x86\Debug\_01_form.Properties.Resources.resources
+E:\C#\01_form\01_form\obj\x86\Debug\01_form.csproj.GenerateResource.Cache
