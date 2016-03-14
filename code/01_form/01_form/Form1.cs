@@ -92,6 +92,14 @@ namespace _01_form
             {
                 ;
             }
+			/*
+			使用if处理异常
+			if(opf.FileName != ""){
+              BackgroundImage = System.Drawing.Bitmap.FromFile(opf.FileName);
+			}else{
+				;
+			}
+			*/
         }
     }
 }
