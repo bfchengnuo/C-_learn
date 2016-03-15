@@ -1,0 +1,9 @@
+E:\C#\Clactext\Clactext\bin\Debug\Clactext.exe.config
+E:\C#\Clactext\Clactext\bin\Debug\Clactext.exe
+E:\C#\Clactext\Clactext\bin\Debug\Clactext.pdb
+E:\C#\Clactext\Clactext\obj\Debug\Clactext.csprojResolveAssemblyReference.cache
+E:\C#\Clactext\Clactext\obj\Debug\Clactext.Form1.resources
+E:\C#\Clactext\Clactext\obj\Debug\Clactext.Properties.Resources.resources
+E:\C#\Clactext\Clactext\obj\Debug\Clactext.csproj.GenerateResource.Cache
+E:\C#\Clactext\Clactext\obj\Debug\Clactext.exe
+E:\C#\Clactext\Clactext\obj\Debug\Clactext.pdb
