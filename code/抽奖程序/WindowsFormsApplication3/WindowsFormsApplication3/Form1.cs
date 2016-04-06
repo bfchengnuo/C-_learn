@@ -14,6 +14,7 @@ namespace WindowsFormsApplication3
     {
         //获取路径
         string filepath = "./src/";
+        //string filepath = Application.StartupPath + "\\src\\";
         //定义一个集合来存放文件名，并且提供映射关系
         List<string> namelist = new List<string>();
         //记录取得的随机数
@@ -25,6 +26,7 @@ namespace WindowsFormsApplication3
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            //MessageBox.Show(filepath1);
            //获取文件夹中的信息
             DirectoryInfo folder = new DirectoryInfo(filepath);
             //遍历文件夹的内容，筛选出符合规则的文件
@@ -45,6 +47,10 @@ namespace WindowsFormsApplication3
         private void button2_Click(object sender, EventArgs e)
         {
             timer1.Enabled =false;
+            //添加到已选列表控件
+            listBox1.Items.Add(namelist[i]);
+            //文件名在label标签显示
+            label1.Text = namelist[i];
             //删除此次取得的随机数与之对应的文件名，保证下次不在取到
             namelist.RemoveAt(i);
         }
