@@ -19,6 +19,8 @@ namespace WindowsFormsApplication3
         List<string> namelist = new List<string>();
         //记录取得的随机数
         int i = 0;
+        //控制pic的位置
+        int s = 0;
         public Form1()
         {
             InitializeComponent();
@@ -27,7 +29,7 @@ namespace WindowsFormsApplication3
         private void Form1_Load(object sender, EventArgs e)
         {
             //MessageBox.Show(filepath1);
-           //获取文件夹中的信息
+            //获取文件夹中的信息
             DirectoryInfo folder = new DirectoryInfo(filepath);
             //遍历文件夹的内容，筛选出符合规则的文件
             foreach (FileInfo file in folder.GetFiles("*.jpg"))
@@ -46,23 +48,41 @@ namespace WindowsFormsApplication3
 
         private void button2_Click(object sender, EventArgs e)
         {
-            timer1.Enabled =false;
+            timer1.Enabled = false;
+            addPic();
+        }
+
+        //将已选的图片添加到容器，panel是为了显示滚动条
+        private void addPic()
+        {
             //添加到已选列表控件
-            listBox1.Items.Add(namelist[i]);
+            // listBox1.Items.Add(namelist[i]);
             //文件名在label标签显示
             label1.Text = namelist[i];
+
+            PictureBox pic = new PictureBox();
+            pic.Top = s / 4 * 50 + 10;
+            pic.Left = s % 4 * 50 + 10;
+            pic.Height = 50;
+            pic.Width = 50;
+            pic.SizeMode = PictureBoxSizeMode.Zoom;
+            pic.Image = System.Drawing.Bitmap.FromFile(filepath + namelist[i]);
+            //设置滚动条回到初始位置
+            panel1.VerticalScroll.Value = panel1.VerticalScroll.Minimum;
+            panel1.Controls.Add(pic);
             //删除此次取得的随机数与之对应的文件名，保证下次不在取到
             namelist.RemoveAt(i);
+            s++;
         }
 
         private void timer1_Tick(object sender, EventArgs e)
         {
             Random random = new Random();
-            i = random.Next(0,namelist.Count);
+            i = random.Next(0, namelist.Count);
             //i = random.Next(0, listBox1.Items.Count);
             //设置listbox的选择效果 
             //listBox1.SelectedIndex = i;
-            pictureBox1.Image = System.Drawing.Bitmap.FromFile(filepath+namelist[i].ToString());
+            pictureBox1.Image = System.Drawing.Bitmap.FromFile(filepath + namelist[i].ToString());
         }
     }
 }

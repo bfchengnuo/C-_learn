@@ -29,28 +29,20 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.listBox1 = new System.Windows.Forms.ListBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.panel1 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // listBox1
-            // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 12;
-            this.listBox1.Location = new System.Drawing.Point(82, 168);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(131, 208);
-            this.listBox1.TabIndex = 0;
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(323, 168);
+            this.pictureBox1.Location = new System.Drawing.Point(370, 160);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(210, 179);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -59,7 +51,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(300, 78);
+            this.button1.Location = new System.Drawing.Point(343, 88);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 2;
@@ -69,7 +61,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(478, 78);
+            this.button2.Location = new System.Drawing.Point(521, 88);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 2;
@@ -89,44 +81,52 @@
             this.label1.Size = new System.Drawing.Size(0, 12);
             this.label1.TabIndex = 3;
             // 
-            // label2
+            // groupBox1
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(126, 137);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(29, 12);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "已选";
+            this.groupBox1.Controls.Add(this.panel1);
+            this.groupBox1.Location = new System.Drawing.Point(12, 48);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(289, 344);
+            this.groupBox1.TabIndex = 4;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "groupBox1";
+            // 
+            // panel1
+            // 
+            this.panel1.AutoScroll = true;
+            this.panel1.Location = new System.Drawing.Point(6, 20);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(277, 318);
+            this.panel1.TabIndex = 0;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(731, 552);
-            this.Controls.Add(this.label2);
+            this.ClientSize = new System.Drawing.Size(627, 426);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.listBox1);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Panel panel1;
     }
 }
 
