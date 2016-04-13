@@ -26,7 +26,7 @@ namespace WindowsFormsApplication3
         private void Form1_Load(object sender, EventArgs e)
         {
             //读取文件，将文件信息分别写入两个list集合
-            new addList().Show(idList, nameList);
+            new AddList().Show(idList, nameList);
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -68,7 +68,7 @@ namespace WindowsFormsApplication3
         {
             timer1.Enabled = false;
             //将抽取到的同学添加到容器，并删除此同学
-            new addGroup().addPic(idList, nameList, i, panel1, filepath);
+            new AddGroup().addPic(idList, nameList, i, panel1, filepath);
             flag = true;
             button1.Text = "开始";
         }
@@ -90,14 +90,19 @@ namespace WindowsFormsApplication3
         //按钮2清除方法
         private void btnClean()
         {
+            //健壮性判断，判断如果未停止就点重置，先停止后再清除
+            if (idList.Count != 0)
+            {
+                btnStop();
+            }
             idList.Clear();
             nameList.Clear();
             panel1.Controls.Clear();
             pictureBox1.Image = null;
             label1.Text = "";
             label2.Text = "";
-            new addList().Show(idList, nameList);
-            addGroup.s = 0;
+            new AddList().Show(idList, nameList);
+            AddGroup.s = 0;
         }
 
     }

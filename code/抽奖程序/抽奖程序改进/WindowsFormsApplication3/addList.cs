@@ -5,7 +5,7 @@ using System.IO;
 
 namespace WindowsFormsApplication3
 {
-    class addList
+    class AddList
     {
         string filepath = @".\src\15软件一班花名册.txt";
         public void Show(List<string> idList,List<string> nameList)

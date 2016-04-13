@@ -6,7 +6,7 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApplication3
 {
-    class addGroup
+    class AddGroup
     {
         //控制pic的位置
         public static int s = 0;
