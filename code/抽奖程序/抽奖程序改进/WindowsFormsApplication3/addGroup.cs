@@ -12,7 +12,7 @@ namespace WindowsFormsApplication3
         public static int s = 0;
         
         //将已选的图片添加到容器，panel是为了显示滚动条
-        public void addPic(List<string> idList,List<string> nameList,int i,Panel p,string filepath)
+        public void addPic(List<Student> stuList,int i,Panel p,string filepath)
         {
 
             PictureBox pic = new PictureBox();
@@ -21,13 +21,12 @@ namespace WindowsFormsApplication3
             pic.Height = 60;
             pic.Width = 60;
             pic.SizeMode = PictureBoxSizeMode.Zoom;
-            pic.Image = System.Drawing.Bitmap.FromFile(filepath + idList[i] + ".jpg");
+            pic.Image = System.Drawing.Bitmap.FromFile(filepath + stuList[i].stuID + ".jpg");
             //设置滚动条回到初始位置
             p.VerticalScroll.Value = p.VerticalScroll.Minimum;
             p.Controls.Add(pic);
             //删除此次取得的随机数与之对应的文件名，保证下次不在取到
-            idList.RemoveAt(i);
-            nameList.RemoveAt(i);
+            stuList.RemoveAt(i);
             s++;
         }
     }
