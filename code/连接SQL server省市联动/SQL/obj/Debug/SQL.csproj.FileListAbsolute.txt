@@ -1,0 +1,10 @@
+E:\C#\SQL\SQL\bin\Debug\SQL.exe.config
+E:\C#\SQL\SQL\bin\Debug\SQL.exe
+E:\C#\SQL\SQL\bin\Debug\SQL.pdb
+E:\C#\SQL\SQL\obj\Debug\SQL.csprojResolveAssemblyReference.cache
+E:\C#\SQL\SQL\obj\Debug\SQL.Form1.resources
+E:\C#\SQL\SQL\obj\Debug\SQL.Properties.Resources.resources
+E:\C#\SQL\SQL\obj\Debug\SQL.csproj.GenerateResource.Cache
+E:\C#\SQL\SQL\obj\Debug\SQL.exe
+E:\C#\SQL\SQL\obj\Debug\SQL.pdb
+E:\C#\SQL\SQL\obj\Debug\SQL.Form2.resources
