@@ -1,0 +1,5 @@
+E:\C#\examTest\DAL\bin\Debug\DAL.dll
+E:\C#\examTest\DAL\bin\Debug\DAL.pdb
+E:\C#\examTest\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+E:\C#\examTest\DAL\obj\Debug\DAL.dll
+E:\C#\examTest\DAL\obj\Debug\DAL.pdb

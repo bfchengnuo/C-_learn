@@ -1,0 +1,14 @@
+E:\C#\examTest\UI\bin\Debug\UI.exe.config
+E:\C#\examTest\UI\bin\Debug\UI.exe
+E:\C#\examTest\UI\bin\Debug\UI.pdb
+E:\C#\examTest\UI\bin\Debug\BLL.dll
+E:\C#\examTest\UI\bin\Debug\BLL.pdb
+E:\C#\examTest\UI\obj\Debug\UI.csprojResolveAssemblyReference.cache
+E:\C#\examTest\UI\obj\Debug\UI.Landed.resources
+E:\C#\examTest\UI\obj\Debug\UI.Properties.Resources.resources
+E:\C#\examTest\UI\obj\Debug\UI.csproj.GenerateResource.Cache
+E:\C#\examTest\UI\obj\Debug\UI.exe
+E:\C#\examTest\UI\obj\Debug\UI.pdb
+E:\C#\examTest\UI\obj\Debug\UI.MainWindow.resources
+E:\C#\examTest\UI\bin\Debug\DAL.dll
+E:\C#\examTest\UI\bin\Debug\DAL.pdb

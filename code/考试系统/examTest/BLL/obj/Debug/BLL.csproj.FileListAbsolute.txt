@@ -1,0 +1,7 @@
+E:\C#\examTest\BLL\bin\Debug\BLL.dll
+E:\C#\examTest\BLL\bin\Debug\BLL.pdb
+E:\C#\examTest\BLL\bin\Debug\DAL.dll
+E:\C#\examTest\BLL\bin\Debug\DAL.pdb
+E:\C#\examTest\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+E:\C#\examTest\BLL\obj\Debug\BLL.dll
+E:\C#\examTest\BLL\obj\Debug\BLL.pdb
