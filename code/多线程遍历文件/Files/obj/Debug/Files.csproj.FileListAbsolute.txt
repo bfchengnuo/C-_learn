@@ -1,0 +1,9 @@
+E:\C#\Files\Files\bin\Debug\Files.exe.config
+E:\C#\Files\Files\bin\Debug\Files.exe
+E:\C#\Files\Files\bin\Debug\Files.pdb
+E:\C#\Files\Files\obj\Debug\Files.csprojResolveAssemblyReference.cache
+E:\C#\Files\Files\obj\Debug\Files.Form1.resources
+E:\C#\Files\Files\obj\Debug\Files.Properties.Resources.resources
+E:\C#\Files\Files\obj\Debug\Files.csproj.GenerateResource.Cache
+E:\C#\Files\Files\obj\Debug\Files.exe
+E:\C#\Files\Files\obj\Debug\Files.pdb
