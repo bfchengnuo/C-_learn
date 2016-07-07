@@ -1,0 +1,13 @@
+E:\C#\Solution2\UI\bin\Debug\UI.exe.config
+E:\C#\Solution2\UI\bin\Debug\UI.exe
+E:\C#\Solution2\UI\bin\Debug\UI.pdb
+E:\C#\Solution2\UI\obj\Debug\UI.csprojResolveAssemblyReference.cache
+E:\C#\Solution2\UI\obj\Debug\UI.Form1.resources
+E:\C#\Solution2\UI\obj\Debug\UI.Properties.Resources.resources
+E:\C#\Solution2\UI\obj\Debug\UI.csproj.GenerateResource.Cache
+E:\C#\Solution2\UI\obj\Debug\UI.exe
+E:\C#\Solution2\UI\obj\Debug\UI.pdb
+E:\C#\Solution2\UI\bin\Debug\BLL.dll
+E:\C#\Solution2\UI\bin\Debug\DAL.dll
+E:\C#\Solution2\UI\bin\Debug\BLL.pdb
+E:\C#\Solution2\UI\bin\Debug\DAL.pdb
