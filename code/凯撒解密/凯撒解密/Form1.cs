@@ -14,7 +14,7 @@ namespace 凯撒解密
     {
         public Form1()
         {
-            InitializeComponent();
+            InitializeComponent() ;
         }
 
         private void button1_Click(object sender, EventArgs e)
